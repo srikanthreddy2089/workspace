@@ -1,4 +1,8 @@
 #https://leetcode.com/problems/two-sum/
+"""
+During iteration insert the target - current element into hashmap, and in next iteration
+check if element present in hashmap, if not insert again target - current element into hash map. 
+"""
 
 def two_sum(nums, target):
     hash_map = {}

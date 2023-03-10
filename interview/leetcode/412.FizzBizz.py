@@ -1,6 +1,6 @@
 #https://leetcode.com/problems/fizz-buzz/
 """
-
+Readable code
 """
 
 def fizzBuzz(n):
@@ -17,8 +17,6 @@ def fizzBuzz(n):
                 ele = str(each)
             lis.append(ele)
         return lis
-
-
 
 n=30
 print(fizzBuzz(n))
